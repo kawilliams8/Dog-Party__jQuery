@@ -1,0 +1,74 @@
+body {
+	border: 1px solid black;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+h2,
+h3,
+p, 
+li,
+a {
+	ffont-family: 'Open Sans', sans-serif;
+	list-style-type: none;
+}
+
+h2 {
+	text-align: center;
+}
+
+nav {
+	background-color: #75e2e6;
+	border-bottom: 10px solid #048eaa;
+}
+
+.site-logo {
+	margin: 10px 10px 10px 20px;
+}
+
+.site-logo {
+	float: left;
+	height: 50px;
+	width: 50px;
+}
+
+.hero-image {
+	background-image: url("images/park.jpg");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 350px;
+}
+
+.site-menu {
+	width: 33%;
+}
+
+.column {
+	float: left;
+  	width: 30%;
+  	padding: 10px
+}
+
+.column-button {
+	font-size: 25px;
+	color: #ffffff;
+	text-align: center;
+	background-color: #048eaa;
+	height: 50px;
+}
+
+.column-image {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 250px;
+	width: 250px;
+	border-radius: 150px;
+  	border: 5px solid #048eaa;
+}
+
+footer {
+	clear: left;
+	background-color: #048eaa;
+	color: #ffffff;
+}
