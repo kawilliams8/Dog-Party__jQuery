@@ -34,3 +34,5 @@ Make the What Is Dog buttons horizontally aligned no matter how much text is in 
 Step 2 - Javascript
 Once you have the HTML structure built and styled using CSS, experiment with adding in interaction using Javascript: Build functionality to allow a user to type a dog name in the input field and then, when the user clicks the button, have that dog name replace the text Some Dogs in the main A Site About Some Dogs header and clear out the input field. For example: if I typed Fido into the input, when I click the button the main header of the page should change to read A Site About Fido.
 Work to craft your Javascript according to the Turing Javascript Style Guide
+
+![ScreenShot]https://github.com/kawilliams8/Dog-Party/blob/master/Dog%20Party%20comp.png
