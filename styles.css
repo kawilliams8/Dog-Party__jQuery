@@ -1,5 +1,5 @@
 html {
-	width: 1075px;
+  width: 1075px;
 	margin: auto;
 	background-color: #ffffff;
 	font-family: 'Open Sans', sans-serif;
@@ -45,7 +45,7 @@ main {
 	clear: both;
 }
 
-/* Navigation Bar*/
+/* navigation bar*/
 
 .site-logo {
 	display: inline;
@@ -63,18 +63,18 @@ main {
 	line-height: 60px;
 }
 
-/* Header, image, dog profile form*/
+/* header, image, and input form*/
 
 .header-background {
 	height: 460px;
-  	background-image: url("images/park.jpg");
+  background-image: url("images/park.jpg");
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: 100% auto;
-  	width: 100%
-  	padding: 10px;
-  	position: relative;
-  	z-index: 1;
+  width: 100%
+  padding: 10px;
+  position: relative;
+  z-index: 1;
 }
 
 .header-overlay {
@@ -101,8 +101,8 @@ main {
 	margin: auto;
 	display: block;
 	width: 425px;
-    z-index: 3;
-    top: 73px;
+  z-index: 3;
+  top: 73px;
 	color: #ffffff;
 }
 
@@ -112,11 +112,11 @@ main {
 
 .header-image {
 	display: block;
-    margin: auto;
+  margin: auto;
 	height: 175px;
 	width: 175px;
 	border-radius: 150px;
-  	border: 5px solid #048eaa;
+  border: 5px solid #048eaa;
 }
 
 .header-form {
@@ -135,7 +135,7 @@ input {
 	height: 50px;
 	width: 375px;
 	margin: -10px auto 20px auto;
-	border: none;
+	border: 0;
 	border-radius: 3px;
 	font-family: inherit;
 }
@@ -150,7 +150,7 @@ button {
 	height: 50px;
 	width: 375px;
 	margin: 10px auto 20px auto;
-	border: none;
+	border: 0;
 	border-radius: 3px;
 	font-size: 16px;
 	font-weight: normal;
@@ -158,12 +158,12 @@ button {
 	background-color: #75e2e6;
 }
 
-/* Main content, columns*/
+/* main content, columns*/
 
 .column {
 	float: left;
-  	width: 28%;
-  	margin: 10px 28px 35px 28px;
+  width: 28%;
+  margin: 10px 28px 35px 28px;
 }
 
 .column p {
@@ -176,18 +176,18 @@ button {
 	background-color: #048eaa;
 	height: 50px;
 	line-height: 50px;
-	border: none;
+	border: 0;
 	border-radius: 3px;
 }
 
 .column-image {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 	height: 175px;
 	width: 175px;
 	border-radius: 150px;
-  	border: 5px solid #048eaa;
+  border: 5px solid #048eaa;
 }
 
 /* footer */
@@ -207,6 +207,6 @@ h3,
 	padding: 5px 5px;
 }
 
-li{
+li {
 	padding: 10px;
 }
