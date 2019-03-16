@@ -1,24 +1,30 @@
 html {
-	border: 1px solid black;
+	width: 1075px;
+	margin: auto;
 	background-color: #ffffff;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 21px;
+	font-size: 16px;
 	color: #000000;
 	list-style-type: none;
 }
 
+body {
+	border: 2px solid black;
+	padding: -10px;
+}
+
 h1 {
 	color: #ffffff;
-	text-align: center;
-	font-size: 50px;
+	margin: auto;
+	font-size: 36px;
 	font-weight: 100;
-	margin-top: 0px;
+	margin-top: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 
 span {
-	font-weight: 900;
+	font-weight: 700;
 }
 
 h2 {
@@ -31,93 +37,130 @@ li {
 
 nav {
 	background-color: #75e2e6;
-	height: 67px;
-	border-bottom: 10px solid #048eaa;
+	height: 60px;
+	border-bottom: 3px solid #048eaa;
 }
 
 main {
 	clear: both;
 }
 
+/* Navigation Bar*/
+
 .site-logo {
 	display: inline;
-	margin: 10px 10px 10px 20px;
+	margin: 6px 6px 6px 20px;
 	float: left;
-	height: 50px;
-	width: 50px;
+	height: 48px;
+	width: auto;
 }
 
 .site-nav {
-	height: 67px;
+	height: 60px;
 	margin-left: auto;
 	text-align: right;
 	font-weight: bold;
-	line-height: 67px;
+	line-height: 60px;
 }
 
-.header {
-	margin: auto;
-	margin: 0px;
-  	width: 100%
-  	padding: 10px;
+/* Header, image, dog profile form*/
+
+.header-background {
+	height: 460px;
   	background-image: url("images/park.jpg");
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: 100% auto;
+  	width: 100%
+  	padding: 10px;
+  	position: relative;
+  	z-index: 1;
 }
 
-#header-profile,
-#header-image,
-#header-form {
-	margin: 0px auto;
+.header-overlay {
+	height: 460px;
+	width: 1057px;
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top: 73px;
+	z-index: 3;
+}
+
+.header-profile {
+	position: absolute;
+	top: 73px;
+	margin: 0 auto 0 auto;
+	z-index: 3;
+	width: 1057px;
+	height: 460px;
+	text-align: center;
+}
+
+.header-image,
+.header-form {
+	margin: auto;
+	display: block;
+	width: 425px;
+    z-index: 3;
+    top: 73px;
 	color: #ffffff;
 }
 
-#profile-name {
+.profile-name {
 	text-align: left;
 }
 
-#header-image {
+.header-image {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	height: 250px;
-	width: 250px;
+    margin: auto;
+	height: 175px;
+	width: 175px;
 	border-radius: 150px;
   	border: 5px solid #048eaa;
 }
 
-#header-form {
-	text-align: center	;
+.header-form {
+	width: 377px;
+	text-align: left;
 }
 
-#header-form-label {
+.header-form-label {
 	text-align: left;
 	color: #ffffff;
+
 }
 
 input {
 	display: block;
 	height: 50px;
-	width: 30%;
-	margin: 30px auto 30px auto;
+	width: 375px;
+	margin: -10px auto 20px auto;
+	border: none;
 }
 
 button {
 	display: block;
 	height: 50px;
-	width: 30%;
-	margin: 30px auto 30px auto;
+	width: 375px;
+	margin: 10px auto 20px auto;
+	border: none;
+	border-radius: 3px;
 	font-size: 16px;
 	font-weight: normal;
 	font-family: inherit;
 	background-color: #75e2e6;
 }
 
+/* Main content, columns*/
+
 .column {
 	float: left;
-  	width: 30%;
-  	margin: 20px
+  	width: 28%;
+  	margin: 10px 28px 35px 28px;
+}
+
+.column p {
+	height: 225px;
 }
 
 .column-button {
@@ -126,17 +169,21 @@ button {
 	background-color: #048eaa;
 	height: 50px;
 	line-height: 50px;
+	border: none;
+	border-radius: 3px;
 }
 
 .column-image {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-	height: 250px;
-	width: 250px;
+	height: 175px;
+	width: 175px;
 	border-radius: 150px;
   	border: 5px solid #048eaa;
 }
+
+/* footer */
 
 footer {
 	clear: both;
@@ -150,9 +197,9 @@ footer {
 h3,
 .footer-text {
 	text-align: center;
-	padding: 20px 20px;
+	padding: 5px 5px;
 }
 
 li{
-	padding: 20px;
+	padding: 10px;
 }
