@@ -136,6 +136,12 @@ input {
 	width: 375px;
 	margin: -10px auto 20px auto;
 	border: none;
+	border-radius: 3px;
+	font-family: inherit;
+}
+
+#input-text {	
+	font-size: 16px;
 }
 
 button {
