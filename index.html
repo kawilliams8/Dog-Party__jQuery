@@ -1,40 +1,50 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Dog Party</title>
+    <title>Let's Have a Dog Party!</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="responsive.css" rel="stylesheet" type="text/css" media="screen 
+    and (max-width: 600px)">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" 
+    rel="stylesheet">
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="header-mobile">
+      <nav class="header-mobile">
         <a href="https://kawilliams8.github.io/Dog-Party/">
-          <img src="images/dog-icon.svg" class ="site-logo" alt="Dog Party icon">
+          <img src="images/dog-icon.svg" class ="site-logo header-mobile" 
+          alt="Dog Party icon">
         </a>
-        <menu class="site-nav">
-          <ul>
-            <li>How to Dog</li>
-            <li>What is Dogs</li>
-            <li>Facts from Dog</li>
+        <menu class="site-nav header-mobile">
+          <ul class="header-mobile">
+            <li><a href="#column1-link">How to Dog</a></li>
+            <li><a href="#column2-link">What is Dogs</a></li>
+            <li><a href="#column3-link">Facts from Dog</a></li>
           </ul>
         </menu>
       </nav>
-      <div class="header">
-        <div class="header-background"></div>
-        <div class="header-overlay"></div>
-        <div class="header-profile">
-          <h1>A Site About <span class="js-header-span">Some Dogs</span></h1>
-          <img class="header-image" src="images/dog1-sq.jpg" alt="Cute Dog 1">
-          <form class="header-form" action="Live Github site?" method="post">
-            <p class="profile-name">Name</p>
-            <input class="js-input-text" id="input-text" type="text" name="name-this-dog" />
-            <button class="js-name-dog" type="button">Name This Dog</button>
+      <div class="header header-mobile">
+        <div class="header-background header-mobile"></div>
+        <div class="header-overlay header-mobile"></div>
+        <div class="header-profile header-mobile">
+          <h1 class="header-mobile">A Site About <span class="js-header-span">
+          Some Dogs</span></h1>
+          <img class="header-image header-mobile" src="images/dog1-sq.jpg" 
+          alt="Cute Dog 1">
+          <form class="header-form header-mobile" action="Live Github site?" 
+          method="post">
+            <p class="profile-name header-mobile">Name</p>
+            <input class="js-input-text header-mobile" id="input-text" 
+            type="text" name="name-this-dog" />
+            <button class="js-name-dog header-mobile" type="button">Name This 
+            Dog</button>
           </form>
         </div>
       </div>
     </header>
     <main>
-      <div class="column">
-        <h2>How to Dog</h2>
+      <div class="column column-mobile">
+        <h2 id="column1-link">How to Dog</h2>
         <img src="images/dog2-sq.jpg" class="column-image" alt="Cute Dog 2">
         <p>Dat tungg tho pupperino length boy. borkdrive aqua doggo. Maximum 
         borkdrive long doggo extremely cuuuuuute you are doing me the shock 
@@ -42,8 +52,8 @@
         corgo long water shoob stop it fren boofers pupper heck ruff.</p>
         <div class="column-button">How</div>
       </div>
-      <div class="column">
-        <h2>What is Dogs</h2>
+      <div class="column column-mobile">
+        <h2 id="column2-link">What is Dogs</h2>
         <img src="images/dog3-sq.jpg" class="column-image" alt="Cute Dog 3">
         <p>Long doggo smol borking doggo with a long snoot for pats pupperino 
         h*ck heckin angery woofer shoober aqua doggo heck doggo aqua doggo 
@@ -52,8 +62,8 @@
         waggy wags stop it fren.</p>
         <div class="column-button">What</div>
       </div>
-      <div class="column">
-        <h2>Facts from Dog</h2>
+      <div class="column column-mobile column-mobile-last">
+        <h2 id="column3-link">Facts from Dog</h2>
         <img src="images/dog4-sq.jpg" class="column-image" alt="Cute Dog 4">
         <p>Most angery pupper I have ever seen such treat heck, dat tungg tho. 
         You are doin me a concern shibe such treat ruff heck, stop it fren ur 
@@ -62,7 +72,7 @@
         <div class="column-button">Facts</div>
       </div>
     </main>
-    <footer>
+    <footer class="footer-mobile">
       <h3 class="footer-text">Learn About Dogs Online</h3>
       <ul class="footer-text">
         <li> <img src="images/twitter.svg" alt="Twitter logo"></li>
