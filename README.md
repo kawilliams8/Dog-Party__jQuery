@@ -1,4 +1,4 @@
-# Dog Party
+# Dog Party with jQuery
 
 Dog Party is the first project in Mod 1 of the Front End Engineering program at the Turing School of Software and Design.
 
